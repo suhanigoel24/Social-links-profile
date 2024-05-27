@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--Green: hsl(75, 94%, 57%); 
+--white: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%) ;
+--font-size: 14px;
+}
+
+body{
+    font-family: "inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Off-Black);
+    min-height: 100vh; ;
+}
+
+.container{
+    background-color: var(--Dark-Grey);
+    border-radius: 10px;
+    max-width: 400px;
+    
+    padding: 40px;
+
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 1.25rem;
+}
+
+h2{
+    text-align: center;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom:0.5rem ;
+}
+
+h5{
+    text-align: center;
+    color: var(--Green);
+    margin-bottom: 1.5rem;
+}
+
+p{
+    text-align: center;
+    color: var(--white);
+    font-weight: 400;
+    font-size: var(--font-size);
+    margin-bottom: 1rem ;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container ul{
+    
+    display: grid;
+    gap: 0.8rem;
+}
+
+.container ul li button{
+    font-family: "inter" , sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    width : 100%;
+    padding:10px;
+    border-radius: 5px;
+    background-color: var(--Grey);
+    color : var(--white);
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+
+.container ul li button:hover{
+    font-family: "inter" , sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--Off-Black);
+    background-color: var(--Green);
+    caret-color: var(--Off-Black);
+}
