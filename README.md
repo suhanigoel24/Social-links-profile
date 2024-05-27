@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Click here](https://your-solution-url.com)
 - Live Site URL: [click here](https://suhanigoel24.github.io/Social-links-profile/)
 
 ## My process
