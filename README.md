@@ -46,5 +46,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@suhanigoel24](https://www.frontendmentor.io/profile/suhanigoel24)
-- linkedIn - [Suhani Goel]([https://www.twitter.com/yourusername](https://www.linkedin.com/in/suhani-goel-a78537277/))
+- linkedIn - [Suhani Goel](https://www.twitter.com/yourusername](https://www.linkedin.com/in/suhani-goel-a78537277/)
 
